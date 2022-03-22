@@ -8,8 +8,8 @@
   inputs.flakeNimbleLib.inputs.nixpkgs.follows = "nixpkgs";
   
   inputs.src-python3-master.flake = false;
+  inputs.src-python3-master.ref   = "refs/heads/master";
   inputs.src-python3-master.owner = "matkuki";
-  inputs.src-python3-master.ref   = "master";
   inputs.src-python3-master.repo  = "python3";
   inputs.src-python3-master.type  = "github";
   
