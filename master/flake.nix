@@ -11,7 +11,6 @@
   inputs.src-python3-master.ref   = "refs/heads/master";
   inputs.src-python3-master.owner = "matkuki";
   inputs.src-python3-master.repo  = "python3";
-  inputs.src-python3-master.dir   = "";
   inputs.src-python3-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
